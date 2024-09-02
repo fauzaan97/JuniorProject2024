@@ -4,5 +4,10 @@ Treashure Aplikasi bank sampah plastik yang memungkinkan masyarakat mengumpulkan
 
 The Treashure
 Ketua Kelompok: Muhammad Aqiil Fauzaan 22/494733/TK/54301
+
 Anggota 1: Sean Titan Yang 22/492933/TK/53965
+
 Anggota 2: Timotius Kristafael Harjanto 22/494980/TK/54357
+
+Class Diagram:
+![image](https://github.com/user-attachments/assets/18397d5a-c7a3-4299-957a-f70db413e4c2)
