@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\KULIAH\\2024-2025\\Ganjil\\Treashure\\Treashure\\KULIAH2024-2025GanjilTreashureTreashure\\Treashure\\Treashure.csproj": {}
+    "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Treashure.csproj": {}
   },
   "projects": {
-    "D:\\KULIAH\\2024-2025\\Ganjil\\Treashure\\Treashure\\KULIAH2024-2025GanjilTreashureTreashure\\Treashure\\Treashure.csproj": {
+    "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Treashure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KULIAH\\2024-2025\\Ganjil\\Treashure\\Treashure\\KULIAH2024-2025GanjilTreashureTreashure\\Treashure\\Treashure.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Treashure.csproj",
         "projectName": "Treashure",
-        "projectPath": "D:\\KULIAH\\2024-2025\\Ganjil\\Treashure\\Treashure\\KULIAH2024-2025GanjilTreashureTreashure\\Treashure\\Treashure.csproj",
-        "packagesPath": "C:\\Users\\Aqiil\\.nuget\\packages\\",
-        "outputPath": "D:\\KULIAH\\2024-2025\\Ganjil\\Treashure\\Treashure\\KULIAH2024-2025GanjilTreashureTreashure\\Treashure\\obj\\",
+        "projectPath": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Treashure.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Aqiil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

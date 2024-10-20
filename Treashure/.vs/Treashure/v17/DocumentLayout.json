@@ -1,0 +1,212 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\lenovo\\treashure\\treashure\\treashure\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\lenovo\\treashure\\treashure\\treashure\\treashure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:treashure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\lenovo\\treashure\\treashure\\treashure\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\lenovo\\treashure\\treashure\\treashure\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\lenovo\\treashure\\treashure\\treashure\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\lenovo\\treashure\\treashure\\treashure\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\lenovo\\treashure\\treashure\\treashure\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\lenovo\\treashure\\treashure\\treashure\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\lenovo\\treashure\\treashure\\treashure\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\lenovo\\treashure\\treashure\\treashure\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\lenovo\\treashure\\treashure\\treashure\\plastic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:plastic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "Properties\\Resources.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T17:58:21.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Properties\\Resources.resx",
+              "RelativeToolTip": "Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-10-20T18:02:32.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Treashure.csproj",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Treashure.csproj",
+              "RelativeDocumentMoniker": "Treashure.csproj",
+              "ToolTip": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Treashure.csproj",
+              "RelativeToolTip": "Treashure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-20T17:57:18.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T17:48:56.312Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAmwBgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T16:12:47.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAD4vxIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T16:11:37.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Account.cs",
+              "RelativeDocumentMoniker": "Account.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Account.cs",
+              "RelativeToolTip": "Account.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T16:17:15.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "admin.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\admin.cs",
+              "RelativeDocumentMoniker": "admin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\admin.cs",
+              "RelativeToolTip": "admin.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T16:17:15.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Transaction.cs",
+              "RelativeDocumentMoniker": "Transaction.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Transaction.cs",
+              "RelativeToolTip": "Transaction.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T16:17:15.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ATM.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\ATM.cs",
+              "RelativeDocumentMoniker": "ATM.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\ATM.cs",
+              "RelativeToolTip": "ATM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T16:17:15.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Plastic.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Plastic.cs",
+              "RelativeDocumentMoniker": "Plastic.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Plastic.cs",
+              "RelativeToolTip": "Plastic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T16:17:14.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "user.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\user.cs",
+              "RelativeDocumentMoniker": "user.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\user.cs",
+              "RelativeToolTip": "user.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T16:17:15.105Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
