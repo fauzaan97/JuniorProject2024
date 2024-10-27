@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
+  <!--
     Microsoft ResX Schema 
-    
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -117,29 +117,35 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="material-symbols_home" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\material-symbols_home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Login (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\Login (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mdi_report-bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mdi_report-bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ion_binoculars" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ion_binoculars.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="iconamoon_exit-light" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconamoon_exit-light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\Vector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Vector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TPS Manager" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TPS Manager.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        uRiZIoBmAAAAAElFTkSuQmCC
+</value>
   </data>
 </root>

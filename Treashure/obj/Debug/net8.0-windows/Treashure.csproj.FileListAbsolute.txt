@@ -16,3 +16,4 @@ C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure
 C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.genruntimeconfig.cache
 C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\ref\Treashure.dll
 C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Properties.Resources.resources
+C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Form2.resources
