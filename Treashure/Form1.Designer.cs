@@ -31,11 +31,11 @@
             btnLogin = new Button();
             rightPanel = new Panel();
             lblWelcome = new Label();
-            this.txtName = new TextBox();
-            this.txtEmail = new TextBox();
-            this.txtUsername = new TextBox();
-            this.txtPassword = new TextBox();
-            this.txtConfirmPassword = new TextBox();
+            txtName = new TextBox();
+            txtEmail = new TextBox();
+            txtUsername = new TextBox();
+            txtPassword = new TextBox();
+            txtConfirmPassword = new TextBox();
             chkAgree = new CheckBox();
             btnSignUp = new Button();
             leftPanel.SuspendLayout();
@@ -100,6 +100,7 @@
             btnLogin.TabIndex = 2;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = false;
+            btnLogin.Click += btnLogin_Click;
             // 
             // rightPanel
             // 
@@ -155,7 +156,6 @@
             txtUsername.PlaceholderText = "Username";
             txtUsername.Size = new Size(250, 35);
             txtUsername.TabIndex = 3;
-            
             // 
             // txtPassword
             // 
