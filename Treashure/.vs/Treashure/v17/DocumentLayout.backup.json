@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\titan\\source\\repos\\asdf\\treashure\\treashure\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\titan\\source\\repos\\asdf\\treashure\\treashure\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\titan\\source\\repos\\asdf\\treashure\\treashure\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\titan\\source\\repos\\asdf\\treashure\\treashure\\treashure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:treashure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\titan\\source\\repos\\asdf\\treashure\\treashure\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\titan\\source\\repos\\asdf\\treashure\\treashure\\treashure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:treashure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\titan\\source\\repos\\asdf\\treashure\\treashure\\plastic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:plastic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -75,20 +87,12 @@
       "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\titan\\source\\repos\\asdf\\treashure\\treashure\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\titan\\source\\repos\\asdf\\treashure\\treashure\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\titan\\source\\repos\\asdf\\treashure\\treashure\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|c:\\users\\titan\\source\\repos\\asdf\\treashure\\treashure\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013144A7-BAD9-4CA9-BFF4-5CA7D2718DBA}|Treashure.csproj|solutionrelative:atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,16 +102,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form1.cs [Design]*",
-              "RelativeToolTip": "Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T12:28:19.529Z",
               "IsPinned": true,
@@ -116,24 +120,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T12:44:09.326Z",
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-28T12:52:35.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form1.Designer.cs*",
-              "RelativeToolTip": "Form1.Designer.cs*",
+              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
               "ViewState": "AgIAACUBAAAAAAAAAAAAAC0BAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T12:40:25.031Z",
@@ -141,12 +145,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
+              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAD4vx0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T12:32:00.301Z",
@@ -154,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Login.cs",
               "RelativeDocumentMoniker": "Login.cs",
@@ -167,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Login.cs",
               "RelativeDocumentMoniker": "Login.cs",
@@ -179,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Form4.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form4.cs",
               "RelativeDocumentMoniker": "Form4.cs",
@@ -191,48 +195,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Login.Designer.cs",
-              "RelativeDocumentMoniker": "Login.Designer.cs",
-              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Login.Designer.cs",
-              "RelativeToolTip": "Login.Designer.cs",
-              "ViewState": "AgIAALYAAAAAAAAAAAAAAMkAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ATM.cs",
+              "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\ATM.cs",
+              "RelativeDocumentMoniker": "ATM.cs",
+              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\ATM.cs",
+              "RelativeToolTip": "ATM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T12:19:17.525Z",
+              "WhenOpened": "2024-10-19T16:17:15.093Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form5.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form5.cs",
-              "RelativeDocumentMoniker": "Form5.cs",
-              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form5.cs [Design]",
-              "RelativeToolTip": "Form5.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Account.cs",
+              "RelativeDocumentMoniker": "Account.cs",
+              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Account.cs",
+              "RelativeToolTip": "Account.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T17:07:15.61Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-19T16:17:15.1Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form3.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form3.cs",
-              "RelativeDocumentMoniker": "Form3.cs",
-              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form3.cs [Design]",
-              "RelativeToolTip": "Form3.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T16:26:53.937Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-28T12:44:09.326Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "Treashure",
               "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Treashure.csproj",
               "RelativeDocumentMoniker": "Treashure.csproj",
@@ -244,8 +246,49 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "Login.Designer.cs",
+              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Login.Designer.cs",
+              "RelativeToolTip": "Login.Designer.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAAAMkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T12:19:17.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form5.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form5.cs",
+              "RelativeDocumentMoniker": "Form5.cs",
+              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form5.cs [Design]",
+              "RelativeToolTip": "Form5.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T17:07:15.61Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form3.cs [Design]",
+              "RelativeToolTip": "Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:26:53.937Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form3.cs",
               "RelativeDocumentMoniker": "Form3.cs",
@@ -258,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Form3.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form3.Designer.cs",
               "RelativeDocumentMoniker": "Form3.Designer.cs",
@@ -271,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Form4.cs",
               "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form4.cs",
               "RelativeDocumentMoniker": "Form4.cs",
@@ -284,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Plastic.cs",
               "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Plastic.cs",
               "RelativeDocumentMoniker": "Plastic.cs",
@@ -297,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Resources.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Properties\\Resources.Designer.cs",
               "RelativeDocumentMoniker": "Properties\\Resources.Designer.cs",
@@ -309,19 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Account.cs",
-              "RelativeDocumentMoniker": "Account.cs",
-              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Account.cs",
-              "RelativeToolTip": "Account.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T16:17:15.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "admin.cs",
               "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\admin.cs",
               "RelativeDocumentMoniker": "admin.cs",
@@ -333,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Transaction.cs",
               "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Transaction.cs",
               "RelativeDocumentMoniker": "Transaction.cs",
@@ -346,18 +377,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "ATM.cs",
-              "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\ATM.cs",
-              "RelativeDocumentMoniker": "ATM.cs",
-              "ToolTip": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\ATM.cs",
-              "RelativeToolTip": "ATM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T16:17:15.093Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "user.cs",
               "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\user.cs",
               "RelativeDocumentMoniker": "user.cs",
@@ -369,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Form3.resx",
               "DocumentMoniker": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Form3.resx",
               "RelativeDocumentMoniker": "Form3.resx",
