@@ -47,8 +47,9 @@
             // 
             splitter1.BackColor = Color.MidnightBlue;
             splitter1.Location = new Point(0, 0);
+            splitter1.Margin = new Padding(2, 2, 2, 2);
             splitter1.Name = "splitter1";
-            splitter1.Size = new Size(80, 450);
+            splitter1.Size = new Size(56, 270);
             splitter1.TabIndex = 0;
             splitter1.TabStop = false;
             // 
@@ -56,9 +57,10 @@
             // 
             pictureBox1.BackColor = Color.MidnightBlue;
             pictureBox1.BackgroundImage = Properties.Resources.Vector;
-            pictureBox1.Location = new Point(-2, 0);
+            pictureBox1.Location = new Point(-1, 0);
+            pictureBox1.Margin = new Padding(2, 2, 2, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(81, 73);
+            pictureBox1.Size = new Size(57, 44);
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -70,9 +72,10 @@
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox2.BorderStyle = BorderStyle.FixedSingle;
             pictureBox2.Cursor = Cursors.Cross;
-            pictureBox2.Location = new Point(12, 90);
+            pictureBox2.Location = new Point(8, 54);
+            pictureBox2.Margin = new Padding(2, 2, 2, 2);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(60, 61);
+            pictureBox2.Size = new Size(43, 37);
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
             // 
@@ -80,9 +83,10 @@
             // 
             pictureBox3.BackColor = Color.MidnightBlue;
             pictureBox3.BackgroundImage = Properties.Resources.mdi_report_bar;
-            pictureBox3.Location = new Point(19, 157);
+            pictureBox3.Location = new Point(13, 94);
+            pictureBox3.Margin = new Padding(2, 2, 2, 2);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(50, 49);
+            pictureBox3.Size = new Size(35, 29);
             pictureBox3.TabIndex = 3;
             pictureBox3.TabStop = false;
             // 
@@ -90,9 +94,10 @@
             // 
             pictureBox4.BackColor = Color.MidnightBlue;
             pictureBox4.BackgroundImage = Properties.Resources.ion_binoculars;
-            pictureBox4.Location = new Point(12, 212);
+            pictureBox4.Location = new Point(8, 127);
+            pictureBox4.Margin = new Padding(2, 2, 2, 2);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(60, 55);
+            pictureBox4.Size = new Size(42, 33);
             pictureBox4.TabIndex = 4;
             pictureBox4.TabStop = false;
             // 
@@ -100,9 +105,10 @@
             // 
             pictureBox5.BackColor = Color.MidnightBlue;
             pictureBox5.Image = Properties.Resources.Vector1;
-            pictureBox5.Location = new Point(10, 273);
+            pictureBox5.Location = new Point(7, 164);
+            pictureBox5.Margin = new Padding(2, 2, 2, 2);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(62, 52);
+            pictureBox5.Size = new Size(43, 31);
             pictureBox5.TabIndex = 5;
             pictureBox5.TabStop = false;
             // 
@@ -110,19 +116,20 @@
             // 
             pictureBox6.BackColor = Color.MidnightBlue;
             pictureBox6.BackgroundImage = Properties.Resources.iconamoon_exit_light;
-            pictureBox6.Location = new Point(3, 374);
+            pictureBox6.Location = new Point(2, 224);
+            pictureBox6.Margin = new Padding(2, 2, 2, 2);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(69, 64);
+            pictureBox6.Size = new Size(48, 38);
             pictureBox6.TabIndex = 6;
             pictureBox6.TabStop = false;
             pictureBox6.Click += pictureBox6_Click;
             // 
             // Form3
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Login__1_;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(560, 270);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
             Controls.Add(pictureBox4);
@@ -130,8 +137,10 @@
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(splitter1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Form3";
             Text = "Form3";
+            Load += Form3_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
