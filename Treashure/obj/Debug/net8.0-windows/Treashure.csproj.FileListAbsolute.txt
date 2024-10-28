@@ -39,3 +39,8 @@ C:\Users\Titan\source\repos\asdf\Treashure\Treashure\obj\Debug\net8.0-windows\Tr
 C:\Users\Titan\source\repos\asdf\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.genruntimeconfig.cache
 C:\Users\Titan\source\repos\asdf\Treashure\Treashure\obj\Debug\net8.0-windows\ref\Treashure.dll
 C:\Users\Titan\source\repos\asdf\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Login.resources
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows\Npgsql.dll
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.csproj.AssemblyReference.cache
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.csproj.Up2Date

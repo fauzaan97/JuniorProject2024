@@ -39,16 +39,16 @@
             label5 = new Label();
             label6 = new Label();
             btnLogin2 = new Button();
+            lblWelcome = new Label();
+            btnSignUp2 = new Button();
+            txtUsername = new TextBox();
+            txtPassword = new TextBox();
             leftPanel = new Panel();
             label3 = new Label();
             pictureBox2 = new PictureBox();
             label1 = new Label();
             lblLogin = new Label();
             btnSignUp = new Button();
-            lblWelcome = new Label();
-            btnSignUp2 = new Button();
-            txtUsername = new TextBox();
-            txtPassword = new TextBox();
             rightPanel.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -91,6 +91,7 @@
             textBox2.PlaceholderText = "Name";
             textBox2.Size = new Size(250, 26);
             textBox2.TabIndex = 12;
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // textBox1
             // 
@@ -100,6 +101,7 @@
             textBox1.PlaceholderText = "Email";
             textBox1.Size = new Size(250, 26);
             textBox1.TabIndex = 11;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // panel1
             // 
@@ -173,7 +175,54 @@
             btnLogin2.TabIndex = 7;
             btnLogin2.Text = "Log In";
             btnLogin2.UseVisualStyleBackColor = false;
-            btnLogin2.Click += button1_Click;
+            btnLogin2.Click += btnLogin2_Click;
+            // 
+            // lblWelcome
+            // 
+            lblWelcome.AutoSize = true;
+            lblWelcome.Font = new Font("Arial", 22F, FontStyle.Bold);
+            lblWelcome.ForeColor = Color.Black;
+            lblWelcome.Location = new Point(516, 33);
+            lblWelcome.Name = "lblWelcome";
+            lblWelcome.Size = new Size(154, 35);
+            lblWelcome.TabIndex = 0;
+            lblWelcome.Text = "Welcome!";
+            // 
+            // btnSignUp2
+            // 
+            btnSignUp2.BackColor = Color.White;
+            btnSignUp2.FlatAppearance.BorderSize = 0;
+            btnSignUp2.FlatStyle = FlatStyle.Flat;
+            btnSignUp2.Font = new Font("Yu Gothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSignUp2.ForeColor = Color.FromArgb(170, 213, 108);
+            btnSignUp2.Location = new Point(526, 377);
+            btnSignUp2.Name = "btnSignUp2";
+            btnSignUp2.Size = new Size(120, 50);
+            btnSignUp2.TabIndex = 2;
+            btnSignUp2.Text = "Sign Up";
+            btnSignUp2.UseVisualStyleBackColor = false;
+            btnSignUp2.Click += btnSignUp2_Click;
+            // 
+            // txtUsername
+            // 
+            txtUsername.Font = new Font("Arial", 12F);
+            txtUsername.Location = new Point(464, 197);
+            txtUsername.Name = "txtUsername";
+            txtUsername.PlaceholderText = "Username";
+            txtUsername.Size = new Size(250, 26);
+            txtUsername.TabIndex = 3;
+            txtUsername.TextChanged += txtUsername_TextChanged;
+            // 
+            // txtPassword
+            // 
+            txtPassword.Font = new Font("Arial", 12F);
+            txtPassword.Location = new Point(464, 246);
+            txtPassword.Name = "txtPassword";
+            txtPassword.PasswordChar = '*';
+            txtPassword.PlaceholderText = "Password";
+            txtPassword.Size = new Size(250, 26);
+            txtPassword.TabIndex = 4;
+            txtPassword.TextChanged += txtPassword_TextChanged;
             // 
             // leftPanel
             // 
@@ -245,51 +294,6 @@
             btnSignUp.TabIndex = 7;
             btnSignUp.Text = "Sign Up";
             btnSignUp.UseVisualStyleBackColor = false;
-            // 
-            // lblWelcome
-            // 
-            lblWelcome.AutoSize = true;
-            lblWelcome.Font = new Font("Arial", 22F, FontStyle.Bold);
-            lblWelcome.ForeColor = Color.Black;
-            lblWelcome.Location = new Point(516, 33);
-            lblWelcome.Name = "lblWelcome";
-            lblWelcome.Size = new Size(154, 35);
-            lblWelcome.TabIndex = 0;
-            lblWelcome.Text = "Welcome!";
-            // 
-            // btnSignUp2
-            // 
-            btnSignUp2.BackColor = Color.White;
-            btnSignUp2.FlatAppearance.BorderSize = 0;
-            btnSignUp2.FlatStyle = FlatStyle.Flat;
-            btnSignUp2.Font = new Font("Yu Gothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSignUp2.ForeColor = Color.FromArgb(170, 213, 108);
-            btnSignUp2.Location = new Point(526, 377);
-            btnSignUp2.Name = "btnSignUp2";
-            btnSignUp2.Size = new Size(120, 50);
-            btnSignUp2.TabIndex = 2;
-            btnSignUp2.Text = "Sign Up";
-            btnSignUp2.UseVisualStyleBackColor = false;
-            btnSignUp2.Click += btnLogin_Click;
-            // 
-            // txtUsername
-            // 
-            txtUsername.Font = new Font("Arial", 12F);
-            txtUsername.Location = new Point(464, 197);
-            txtUsername.Name = "txtUsername";
-            txtUsername.PlaceholderText = "Username";
-            txtUsername.Size = new Size(250, 26);
-            txtUsername.TabIndex = 3;
-            // 
-            // txtPassword
-            // 
-            txtPassword.Font = new Font("Arial", 12F);
-            txtPassword.Location = new Point(464, 246);
-            txtPassword.Name = "txtPassword";
-            txtPassword.PasswordChar = '*';
-            txtPassword.PlaceholderText = "Password";
-            txtPassword.Size = new Size(250, 26);
-            txtPassword.TabIndex = 4;
             // 
             // Form1
             // 

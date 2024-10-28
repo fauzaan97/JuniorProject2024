@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4AYe6VW/Jok=",
+  "dgSpecHash": "0lkC/igJ4YQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Treashure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Titan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Titan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Titan\\.nuget\\packages\\npgsql\\8.0.5\\npgsql.8.0.5.nupkg.sha512"
+  ],
   "logs": []
 }
