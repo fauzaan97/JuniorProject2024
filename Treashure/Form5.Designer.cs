@@ -36,14 +36,15 @@
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
             splitter1 = new Splitter();
-            dataGridView1 = new DataGridView();
+            lblNama = new Label();
+            lblEmail = new Label();
+            lblID = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -67,6 +68,7 @@
             pictureBox6.Size = new Size(69, 64);
             pictureBox6.TabIndex = 21;
             pictureBox6.TabStop = false;
+            pictureBox6.Click += pictureBox6_Click;
             // 
             // pictureBox5
             // 
@@ -130,14 +132,32 @@
             splitter1.TabIndex = 15;
             splitter1.TabStop = false;
             // 
-            // dataGridView1
+            // lblNama
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(138, 80);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(610, 317);
-            dataGridView1.TabIndex = 23;
+            lblNama.AutoSize = true;
+            lblNama.Location = new Point(143, 105);
+            lblNama.Name = "lblNama";
+            lblNama.Size = new Size(59, 25);
+            lblNama.TabIndex = 23;
+            lblNama.Text = "Nama";
+            // 
+            // lblEmail
+            // 
+            lblEmail.AutoSize = true;
+            lblEmail.Location = new Point(148, 143);
+            lblEmail.Name = "lblEmail";
+            lblEmail.Size = new Size(54, 25);
+            lblEmail.TabIndex = 24;
+            lblEmail.Text = "Email";
+            // 
+            // lblID
+            // 
+            lblID.AutoSize = true;
+            lblID.Location = new Point(158, 180);
+            lblID.Name = "lblID";
+            lblID.Size = new Size(30, 25);
+            lblID.TabIndex = 25;
+            lblID.Text = "ID";
             // 
             // Form5
             // 
@@ -145,7 +165,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.TPS_Manager;
             ClientSize = new Size(800, 450);
-            Controls.Add(dataGridView1);
+            Controls.Add(lblID);
+            Controls.Add(lblEmail);
+            Controls.Add(lblNama);
             Controls.Add(label1);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
@@ -162,7 +184,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -177,6 +198,8 @@
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
         private Splitter splitter1;
-        private DataGridView dataGridView1;
+        private Label lblNama;
+        private Label lblEmail;
+        private Label lblID;
     }
 }

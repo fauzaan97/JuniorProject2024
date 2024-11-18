@@ -16,7 +16,6 @@ C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure
 C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.genruntimeconfig.cache
 C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\ref\Treashure.dll
 C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Properties.Resources.resources
-C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Form2.resources
 C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows\Treashure.exe
 C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows\Treashure.deps.json
 C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows\Treashure.runtimeconfig.json
@@ -44,3 +43,12 @@ C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows\Mi
 C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows\Npgsql.dll
 C:\Users\Titan\source\repos\asdf\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.csproj.AssemblyReference.cache
 C:\Users\Titan\source\repos\asdf\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.csproj.Up2Date
+C:\Users\LENOVO\Treashure\Treashure\Treashure\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\LENOVO\Treashure\Treashure\Treashure\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\LENOVO\Treashure\Treashure\Treashure\bin\Debug\net8.0-windows\Npgsql.dll
+C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Form3.resources
+C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Form4.resources
+C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Form5.resources
+C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Login.resources
+C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.csproj.CopyComplete
