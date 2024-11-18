@@ -145,6 +145,7 @@
             Controls.Add(splitter1);
             Name = "Form4";
             Text = "Form4";
+            Load += Form4_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();

@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
+using Npgsql;
 
 namespace Treashure
 {
@@ -52,14 +53,83 @@ namespace Treashure
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            string username = txtUsername.Text;
+            string password = txtPassword.Text; // Password yang dimasukkan oleh pengguna
 
+            if (IsValidLogin(username, password))
+            {
+                MessageBox.Show("Login berhasil!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
+                this.Hide(); // Menyembunyikan form login
+                 Form3 mainForm = new Form3();
+                 mainForm.Show();
+            }
+            else
+            {
+                MessageBox.Show("Email atau password salah.", "Login Gagal", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
+        private bool IsValidLogin(string email, string password)
+        {
+            bool isValid = false;
+
+            // Menggunakan connection string dari DatabaseConfig
+            string connectionString = DatabaseConfig.ConnectionString;
+            string query = "SELECT password FROM users WHERE email = @Email";
+
+            using (var conn = new NpgsqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    using (var cmd = new NpgsqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("Email", email);
+
+                        using (var reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                // Ambil password yang disimpan dari database (plaintext)
+                                string storedPassword = reader["password"].ToString();
+
+                                // Cek apakah password yang dimasukkan cocok dengan password yang disimpan
+                                if (password == storedPassword)
+                                {
+                                    isValid = true;
+                                }
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Terjadi kesalahan: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            return isValid;
+        }
+    
+                       
+    
 
         private void btnSignUp_Click(object sender, EventArgs e)
         {
             Form1 form1 = new Form1();
             form1.Show();
             Visible = false;
+        }
+
+        private void leftPanel_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void rightPanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
