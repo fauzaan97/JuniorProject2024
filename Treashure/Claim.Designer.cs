@@ -37,16 +37,16 @@
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
             panel1 = new Panel();
-            panel2 = new Panel();
-            label3 = new Label();
             label15 = new Label();
-            label1 = new Label();
-            pictureBox7 = new PictureBox();
-            pictureBox8 = new PictureBox();
-            pictureBox9 = new PictureBox();
-            label2 = new Label();
-            label4 = new Label();
+            label3 = new Label();
+            panel2 = new Panel();
             label5 = new Label();
+            label4 = new Label();
+            label2 = new Label();
+            pictureBox9 = new PictureBox();
+            pictureBox8 = new PictureBox();
+            pictureBox7 = new PictureBox();
+            label1 = new Label();
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
@@ -58,9 +58,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             SuspendLayout();
             // 
             // splitter1
@@ -163,6 +163,29 @@
             panel1.Size = new Size(491, 297);
             panel1.TabIndex = 7;
             // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.BackColor = Color.Transparent;
+            label15.Font = new Font("Cambria", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label15.Location = new Point(236, 27);
+            label15.Name = "label15";
+            label15.Size = new Size(184, 32);
+            label15.TabIndex = 23;
+            label15.Text = "RP 100.000,00";
+            label15.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Cambria", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(87, 38);
+            label3.Name = "label3";
+            label3.Size = new Size(68, 19);
+            label3.TabIndex = 12;
+            label3.Text = "Balance";
+            // 
             // panel2
             // 
             panel2.BackColor = Color.White;
@@ -181,75 +204,29 @@
             panel2.Size = new Size(446, 178);
             panel2.TabIndex = 0;
             // 
-            // label3
+            // label5
             // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Cambria", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(87, 38);
-            label3.Name = "label3";
-            label3.Size = new Size(68, 19);
-            label3.TabIndex = 12;
-            label3.Text = "Balance";
+            label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
+            label5.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Location = new Point(331, 115);
+            label5.Name = "label5";
+            label5.Size = new Size(45, 15);
+            label5.TabIndex = 19;
+            label5.Text = "Bank C";
+            label5.Click += label5_Click;
             // 
-            // label15
+            // label4
             // 
-            label15.AutoSize = true;
-            label15.BackColor = Color.Transparent;
-            label15.Font = new Font("Cambria", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label15.Location = new Point(236, 27);
-            label15.Name = "label15";
-            label15.Size = new Size(184, 32);
-            label15.TabIndex = 23;
-            label15.Text = "RP 100.000,00";
-            label15.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Cambria", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(185, 25);
-            label1.Name = "label1";
-            label1.Size = new Size(71, 19);
-            label1.TabIndex = 13;
-            label1.Text = "Transfer";
-            // 
-            // pictureBox7
-            // 
-            pictureBox7.BackColor = Color.Transparent;
-            pictureBox7.BackgroundImage = (Image)resources.GetObject("pictureBox7.BackgroundImage");
-            pictureBox7.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox7.Location = new Point(64, 69);
-            pictureBox7.Margin = new Padding(2);
-            pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(46, 44);
-            pictureBox7.TabIndex = 14;
-            pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            pictureBox8.BackColor = Color.Transparent;
-            pictureBox8.BackgroundImage = (Image)resources.GetObject("pictureBox8.BackgroundImage");
-            pictureBox8.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox8.Location = new Point(196, 69);
-            pictureBox8.Margin = new Padding(2);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(46, 44);
-            pictureBox8.TabIndex = 15;
-            pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            pictureBox9.BackColor = Color.Transparent;
-            pictureBox9.BackgroundImage = (Image)resources.GetObject("pictureBox9.BackgroundImage");
-            pictureBox9.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox9.Location = new Point(331, 69);
-            pictureBox9.Margin = new Padding(2);
-            pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(46, 44);
-            pictureBox9.TabIndex = 16;
-            pictureBox9.TabStop = false;
+            label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(196, 115);
+            label4.Name = "label4";
+            label4.Size = new Size(46, 15);
+            label4.TabIndex = 18;
+            label4.Text = "Bank B";
+            label4.Click += label4_Click;
             // 
             // label2
             // 
@@ -263,27 +240,55 @@
             label2.Text = "Bank A";
             label2.Click += label2_Click;
             // 
-            // label4
+            // pictureBox9
             // 
-            label4.AutoSize = true;
-            label4.BackColor = Color.Transparent;
-            label4.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(196, 115);
-            label4.Name = "label4";
-            label4.Size = new Size(46, 15);
-            label4.TabIndex = 18;
-            label4.Text = "Bank B";
+            pictureBox9.BackColor = Color.Transparent;
+            pictureBox9.BackgroundImage = (Image)resources.GetObject("pictureBox9.BackgroundImage");
+            pictureBox9.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox9.Location = new Point(331, 69);
+            pictureBox9.Margin = new Padding(2);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(46, 44);
+            pictureBox9.TabIndex = 16;
+            pictureBox9.TabStop = false;
+            pictureBox9.Click += pictureBox9_Click;
             // 
-            // label5
+            // pictureBox8
             // 
-            label5.AutoSize = true;
-            label5.BackColor = Color.Transparent;
-            label5.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(331, 115);
-            label5.Name = "label5";
-            label5.Size = new Size(45, 15);
-            label5.TabIndex = 19;
-            label5.Text = "Bank C";
+            pictureBox8.BackColor = Color.Transparent;
+            pictureBox8.BackgroundImage = (Image)resources.GetObject("pictureBox8.BackgroundImage");
+            pictureBox8.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox8.Location = new Point(196, 69);
+            pictureBox8.Margin = new Padding(2);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(46, 44);
+            pictureBox8.TabIndex = 15;
+            pictureBox8.TabStop = false;
+            pictureBox8.Click += pictureBox8_Click;
+            // 
+            // pictureBox7
+            // 
+            pictureBox7.BackColor = Color.Transparent;
+            pictureBox7.BackgroundImage = (Image)resources.GetObject("pictureBox7.BackgroundImage");
+            pictureBox7.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox7.Location = new Point(64, 69);
+            pictureBox7.Margin = new Padding(2);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new Size(46, 44);
+            pictureBox7.TabIndex = 14;
+            pictureBox7.TabStop = false;
+            pictureBox7.Click += pictureBox7_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Cambria", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(185, 25);
+            label1.Name = "label1";
+            label1.Size = new Size(71, 19);
+            label1.TabIndex = 13;
+            label1.Text = "Transfer";
             // 
             // button1
             // 
@@ -295,6 +300,7 @@
             button1.TabIndex = 20;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -306,6 +312,7 @@
             button2.TabIndex = 21;
             button2.Text = "button2";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -317,6 +324,7 @@
             button3.TabIndex = 22;
             button3.Text = "button3";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // Claim
             // 
@@ -346,9 +354,9 @@
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ResumeLayout(false);
         }
 

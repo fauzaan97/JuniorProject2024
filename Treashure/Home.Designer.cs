@@ -231,6 +231,7 @@
             button1.TabIndex = 23;
             button1.Text = "Transfer";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // label15
             // 

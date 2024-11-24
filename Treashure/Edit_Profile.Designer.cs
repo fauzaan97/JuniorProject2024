@@ -37,15 +37,15 @@
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
             panel1 = new Panel();
+            label6 = new Label();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
+            button3 = new Button();
             button2 = new Button();
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
             pictureBox7 = new PictureBox();
-            button3 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            label6 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -162,6 +162,43 @@
             panel1.Size = new Size(467, 281);
             panel1.TabIndex = 8;
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Location = new Point(153, 185);
+            label6.Name = "label6";
+            label6.Size = new Size(49, 19);
+            label6.TabIndex = 19;
+            label6.Text = "Name";
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(153, 150);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(270, 23);
+            textBox2.TabIndex = 18;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(153, 115);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(270, 23);
+            textBox1.TabIndex = 17;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.OliveDrab;
+            button3.FlatStyle = FlatStyle.Popup;
+            button3.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button3.Location = new Point(125, 225);
+            button3.Margin = new Padding(0);
+            button3.Name = "button3";
+            button3.Size = new Size(77, 33);
+            button3.TabIndex = 16;
+            button3.Text = "Done";
+            button3.UseVisualStyleBackColor = false;
+            // 
             // button2
             // 
             button2.BackColor = Color.Tomato;
@@ -174,6 +211,7 @@
             button2.TabIndex = 15;
             button2.Text = "Cancel";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // label3
             // 
@@ -216,43 +254,6 @@
             pictureBox7.Size = new Size(56, 52);
             pictureBox7.TabIndex = 7;
             pictureBox7.TabStop = false;
-            // 
-            // button3
-            // 
-            button3.BackColor = Color.OliveDrab;
-            button3.FlatStyle = FlatStyle.Popup;
-            button3.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.Location = new Point(125, 225);
-            button3.Margin = new Padding(0);
-            button3.Name = "button3";
-            button3.Size = new Size(77, 33);
-            button3.TabIndex = 16;
-            button3.Text = "Done";
-            button3.UseVisualStyleBackColor = false;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(153, 115);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(270, 23);
-            textBox1.TabIndex = 17;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(153, 150);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(270, 23);
-            textBox2.TabIndex = 18;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(153, 185);
-            label6.Name = "label6";
-            label6.Size = new Size(49, 19);
-            label6.TabIndex = 19;
-            label6.Text = "Name";
             // 
             // Edit_Profile
             // 

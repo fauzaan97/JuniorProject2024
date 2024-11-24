@@ -22,11 +22,6 @@ namespace Treashure
 
         }
 
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Home_Load(object sender, EventArgs e)
         {
 
@@ -34,22 +29,35 @@ namespace Treashure
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            Form3 form4 = new Form3();
-            form4.Show();
+            Collection_Points collection_points = new Collection_Points();
+            collection_points.Show();
             Visible = false;
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            Form2 form3 = new Form2();
-            form3.Show();
+            Home home = new Home();
+            home.Show();
+            Visible = false;
+        }
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Stats stats = new Stats();
+            stats.Show();
             Visible = false;
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
-            form5.Show();
+            Claim claim = new Claim();
+            claim.Show();
+            Visible = false;
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Profile profile = new Profile();
+            profile.Show();
             Visible = false;
         }
 
@@ -76,6 +84,13 @@ namespace Treashure
         private void panel5_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Claim claim = new Claim();
+            claim.Show();
+            Visible=false;
         }
     }
 }

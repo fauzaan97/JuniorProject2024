@@ -37,10 +37,10 @@
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
             panel1 = new Panel();
-            button3 = new Button();
-            label1 = new Label();
             panel2 = new Panel();
             label2 = new Label();
+            button3 = new Button();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -151,30 +151,6 @@
             panel1.Size = new Size(467, 281);
             panel1.TabIndex = 9;
             // 
-            // button3
-            // 
-            button3.BackColor = Color.OliveDrab;
-            button3.FlatStyle = FlatStyle.Popup;
-            button3.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.Location = new Point(195, 212);
-            button3.Margin = new Padding(0);
-            button3.Name = "button3";
-            button3.Size = new Size(77, 33);
-            button3.TabIndex = 16;
-            button3.Text = "Done";
-            button3.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Cambria", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(115, 19);
-            label1.Name = "label1";
-            label1.Size = new Size(228, 32);
-            label1.TabIndex = 8;
-            label1.Text = "Transfer Success!";
-            label1.Click += label1_Click;
-            // 
             // panel2
             // 
             panel2.BackColor = Color.White;
@@ -193,6 +169,31 @@
             label2.Size = new Size(166, 37);
             label2.TabIndex = 0;
             label2.Text = "Rp 20.000";
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.OliveDrab;
+            button3.FlatStyle = FlatStyle.Popup;
+            button3.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button3.Location = new Point(195, 212);
+            button3.Margin = new Padding(0);
+            button3.Name = "button3";
+            button3.Size = new Size(77, 33);
+            button3.TabIndex = 16;
+            button3.Text = "Done";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Cambria", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(115, 19);
+            label1.Name = "label1";
+            label1.Size = new Size(228, 32);
+            label1.TabIndex = 8;
+            label1.Text = "Transfer Success!";
+            label1.Click += label1_Click;
             // 
             // Success
             // 
