@@ -61,7 +61,7 @@ namespace Treashure
                 MessageBox.Show("Login berhasil!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 
                 this.Hide(); // Menyembunyikan form login
-                 Form3 mainForm = new Form3();
+                 Form2 mainForm = new Form2();
                  mainForm.Show();
             }
             else

@@ -52,3 +52,4 @@ C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure
 C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Form5.resources
 C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Login.resources
 C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.csproj.CopyComplete
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Form2.resources

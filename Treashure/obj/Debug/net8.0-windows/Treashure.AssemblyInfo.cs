@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Treashure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f433b40f91a25df0502005a358e592fca4b4446e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be37760f35d355829a278eca36bd9d6b2c7893a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Treashure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Treashure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

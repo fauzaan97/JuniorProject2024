@@ -17,9 +17,11 @@ namespace Treashure
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            Form2 form3 = new Form2();
+            form3.Show();
+            this.Hide();
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)

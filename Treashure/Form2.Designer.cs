@@ -1,6 +1,6 @@
 ﻿namespace Treashure
 {
-    partial class Form4
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -18,11 +18,6 @@
                 components.Dispose();
             }
             base.Dispose(disposing);
-        }
-
-        private PictureBox GetPictureBox1()
-        {
-            return pictureBox1;
         }
 
         #region Windows Form Designer generated code
@@ -72,7 +67,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.BackColor = Color.MidnightBlue;
+            pictureBox2.BackColor = Color.Aquamarine;
             pictureBox2.BackgroundImage = Properties.Resources.material_symbols_home;
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox2.BorderStyle = BorderStyle.FixedSingle;
@@ -99,7 +94,7 @@
             // 
             // pictureBox4
             // 
-            pictureBox4.BackColor = Color.Aqua;
+            pictureBox4.BackColor = Color.MidnightBlue;
             pictureBox4.BackgroundImage = Properties.Resources.ion_binoculars;
             pictureBox4.Location = new Point(8, 127);
             pictureBox4.Margin = new Padding(2);
@@ -107,7 +102,6 @@
             pictureBox4.Size = new Size(42, 33);
             pictureBox4.TabIndex = 4;
             pictureBox4.TabStop = false;
-            pictureBox4.Click += pictureBox4_Click;
             // 
             // pictureBox5
             // 
@@ -133,11 +127,11 @@
             pictureBox6.TabStop = false;
             pictureBox6.Click += pictureBox6_Click;
             // 
-            // Form4
+            // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.TPS_Manager;
+            BackgroundImage = Properties.Resources.Login__1_;
             ClientSize = new Size(560, 270);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
@@ -147,9 +141,9 @@
             Controls.Add(pictureBox1);
             Controls.Add(splitter1);
             Margin = new Padding(2);
-            Name = "Form4";
-            Text = "Form4";
-            Load += Form4_Load;
+            Name = "Form2";
+            Text = "Form2";
+            Load += Form2_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
