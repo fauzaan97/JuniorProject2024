@@ -52,5 +52,10 @@ namespace Treashure
             form5.Show();
             Visible = false;
         }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

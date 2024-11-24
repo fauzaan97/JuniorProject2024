@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             splitter1 = new Splitter();
             pictureBox1 = new PictureBox();
@@ -36,12 +37,38 @@
             pictureBox4 = new PictureBox();
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
+            contextMenuStrip1 = new ContextMenuStrip(components);
+            label1 = new Label();
+            panel2 = new Panel();
+            label2 = new Label();
+            panel3 = new Panel();
+            panel4 = new Panel();
+            button1 = new Button();
+            label15 = new Label();
+            label3 = new Label();
+            panel1 = new Panel();
+            panel5 = new Panel();
+            label14 = new Label();
+            label13 = new Label();
+            label12 = new Label();
+            label11 = new Label();
+            label10 = new Label();
+            label9 = new Label();
+            label8 = new Label();
+            label7 = new Label();
+            label6 = new Label();
+            label5 = new Label();
+            label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            panel2.SuspendLayout();
+            panel4.SuspendLayout();
+            panel1.SuspendLayout();
+            panel5.SuspendLayout();
             SuspendLayout();
             // 
             // splitter1
@@ -133,12 +160,265 @@
             pictureBox6.TabStop = false;
             pictureBox6.Click += pictureBox6_Click;
             // 
+            // contextMenuStrip1
+            // 
+            contextMenuStrip1.Name = "contextMenuStrip1";
+            contextMenuStrip1.Size = new Size(61, 4);
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Cambria", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(155, 24);
+            label1.Name = "label1";
+            label1.Size = new Size(203, 32);
+            label1.TabIndex = 0;
+            label1.Text = "Welcome, User!";
+            label1.Click += label1_Click;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.White;
+            panel2.Controls.Add(label2);
+            panel2.Controls.Add(panel3);
+            panel2.ForeColor = Color.Black;
+            panel2.Location = new Point(22, 77);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(215, 216);
+            panel2.TabIndex = 8;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Cambria", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(3, 9);
+            label2.Name = "label2";
+            label2.Size = new Size(148, 19);
+            label2.TabIndex = 10;
+            label2.Text = "Statistics Overview";
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.White;
+            panel3.ForeColor = Color.Black;
+            panel3.Location = new Point(252, 0);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(219, 241);
+            panel3.TabIndex = 9;
+            // 
+            // panel4
+            // 
+            panel4.BackColor = Color.White;
+            panel4.Controls.Add(button1);
+            panel4.Controls.Add(label15);
+            panel4.Controls.Add(label3);
+            panel4.ForeColor = Color.Black;
+            panel4.Location = new Point(264, 77);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(229, 216);
+            panel4.TabIndex = 9;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Green;
+            button1.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(71, 134);
+            button1.Name = "button1";
+            button1.Size = new Size(92, 35);
+            button1.TabIndex = 23;
+            button1.Text = "Transfer";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.BackColor = Color.Transparent;
+            label15.Font = new Font("Cambria", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label15.Location = new Point(24, 66);
+            label15.Name = "label15";
+            label15.Size = new Size(184, 32);
+            label15.TabIndex = 22;
+            label15.Text = "RP 100.000,00";
+            label15.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Cambria", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(3, 9);
+            label3.Name = "label3";
+            label3.Size = new Size(68, 19);
+            label3.TabIndex = 11;
+            label3.Text = "Balance";
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.DarkSeaGreen;
+            panel1.Controls.Add(panel5);
+            panel1.Controls.Add(panel4);
+            panel1.Controls.Add(panel2);
+            panel1.Controls.Add(label1);
+            panel1.ForeColor = Color.Black;
+            panel1.Location = new Point(110, 31);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(515, 307);
+            panel1.TabIndex = 7;
+            panel1.Paint += panel1_Paint;
+            // 
+            // panel5
+            // 
+            panel5.BackColor = Color.DarkSeaGreen;
+            panel5.Controls.Add(label14);
+            panel5.Controls.Add(label13);
+            panel5.Controls.Add(label12);
+            panel5.Controls.Add(label11);
+            panel5.Controls.Add(label10);
+            panel5.Controls.Add(label9);
+            panel5.Controls.Add(label8);
+            panel5.Controls.Add(label7);
+            panel5.Controls.Add(label6);
+            panel5.Controls.Add(label5);
+            panel5.Controls.Add(label4);
+            panel5.ForeColor = Color.Black;
+            panel5.Location = new Point(37, 108);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(187, 175);
+            panel5.TabIndex = 10;
+            panel5.Paint += panel5_Paint;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.BackColor = Color.Transparent;
+            label14.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label14.Location = new Point(157, 60);
+            label14.Name = "label14";
+            label14.Size = new Size(30, 15);
+            label14.TabIndex = 21;
+            label14.Text = "0 kg";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.BackColor = Color.Transparent;
+            label13.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label13.Location = new Point(157, 85);
+            label13.Name = "label13";
+            label13.Size = new Size(30, 15);
+            label13.TabIndex = 20;
+            label13.Text = "0 kg";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.BackColor = Color.Transparent;
+            label12.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label12.Location = new Point(157, 110);
+            label12.Name = "label12";
+            label12.Size = new Size(30, 15);
+            label12.TabIndex = 19;
+            label12.Text = "0 kg";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.BackColor = Color.Transparent;
+            label11.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label11.Location = new Point(157, 135);
+            label11.Name = "label11";
+            label11.Size = new Size(30, 15);
+            label11.TabIndex = 18;
+            label11.Text = "0 kg";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.BackColor = Color.Transparent;
+            label10.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label10.Location = new Point(157, 35);
+            label10.Name = "label10";
+            label10.Size = new Size(30, 15);
+            label10.TabIndex = 17;
+            label10.Text = "0 kg";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.BackColor = Color.Transparent;
+            label9.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label9.Location = new Point(3, 135);
+            label9.Name = "label9";
+            label9.Size = new Size(115, 15);
+            label9.TabIndex = 16;
+            label9.Text = "Single-User Plastics";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BackColor = Color.Transparent;
+            label8.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label8.Location = new Point(3, 110);
+            label8.Name = "label8";
+            label8.Size = new Size(142, 15);
+            label8.TabIndex = 15;
+            label8.Text = "Cleaning Product Bottles";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.Location = new Point(3, 85);
+            label7.Name = "label7";
+            label7.Size = new Size(123, 15);
+            label7.TabIndex = 14;
+            label7.Text = "PP (Food Containers)";
+            label7.Click += label7_Click;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Location = new Point(3, 60);
+            label6.Name = "label6";
+            label6.Size = new Size(116, 15);
+            label6.TabIndex = 13;
+            label6.Text = "LDPE (Plastic Bags)";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
+            label5.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Location = new Point(3, 35);
+            label5.Name = "label5";
+            label5.Size = new Size(121, 15);
+            label5.TabIndex = 12;
+            label5.Text = "PET (Plastic Bottles)";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Cambria", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(3, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(125, 19);
+            label4.TabIndex = 11;
+            label4.Text = "Total Collection";
+            // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Login__1_;
             ClientSize = new Size(648, 360);
+            Controls.Add(panel1);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
             Controls.Add(pictureBox4);
@@ -156,6 +436,14 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -168,5 +456,27 @@
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private PictureBox pictureBox6;
+        private ContextMenuStrip contextMenuStrip1;
+        private Label label1;
+        private Panel panel2;
+        private Label label2;
+        private Panel panel3;
+        private Panel panel4;
+        private Panel panel1;
+        private Label label3;
+        private Panel panel5;
+        private Label label7;
+        private Label label6;
+        private Label label5;
+        private Label label4;
+        private Label label9;
+        private Label label8;
+        private Label label14;
+        private Label label13;
+        private Label label12;
+        private Label label11;
+        private Label label10;
+        private Button button1;
+        private Label label15;
     }
 }

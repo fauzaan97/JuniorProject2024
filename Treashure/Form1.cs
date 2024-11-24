@@ -57,7 +57,7 @@ namespace Treashure
 
         private void btnLogin2_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
+            Collection_Points login = new Collection_Points();
             login.Show();
             Visible = false;
         }

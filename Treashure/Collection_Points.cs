@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.Web.WebView2.WinForms;
 
 namespace Treashure
 {
@@ -23,11 +24,6 @@ namespace Treashure
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Collection_Points_Load(object sender, EventArgs e)
         {
 
         }
@@ -51,6 +47,11 @@ namespace Treashure
             Form5 form5 = new Form5();
             form5.Show();
             Visible = false;
+        }
+
+        private void webView21_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

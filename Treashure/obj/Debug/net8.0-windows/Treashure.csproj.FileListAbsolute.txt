@@ -54,3 +54,16 @@ C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure
 C:\Users\LENOVO\Treashure\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.csproj.CopyComplete
 C:\Users\Titan\source\repos\asdf\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Form2.resources
 C:\Users\Titan\source\repos\asdf\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Home.resources
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Claim.resources
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Collection_Points.resources
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Profile.resources
+C:\Users\Titan\source\repos\asdf\Treashure\Treashure\obj\Debug\net8.0-windows\Treashure.Stats.resources

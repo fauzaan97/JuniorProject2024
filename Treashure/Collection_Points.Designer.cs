@@ -36,12 +36,15 @@
             pictureBox4 = new PictureBox();
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
+            panel1 = new Panel();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // splitter1
@@ -132,12 +135,32 @@
             pictureBox6.TabStop = false;
             pictureBox6.Click += pictureBox6_Click;
             // 
+            // panel1
+            // 
+            panel1.BackColor = Color.DarkSeaGreen;
+            panel1.Controls.Add(label1);
+            panel1.Location = new Point(110, 26);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(511, 312);
+            panel1.TabIndex = 8;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Cambria", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(15, 16);
+            label1.Name = "label1";
+            label1.Size = new Size(469, 32);
+            label1.TabIndex = 0;
+            label1.Text = "Checkout Your Nearest Collection Point!";
+            // 
             // Collection_Points
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Login__1_;
             ClientSize = new Size(648, 360);
+            Controls.Add(panel1);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
             Controls.Add(pictureBox4);
@@ -155,6 +178,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -167,5 +192,7 @@
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private PictureBox pictureBox6;
+        private Panel panel1;
+        private Label label1;
     }
 }
