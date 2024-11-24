@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Treashure
 {
-    public partial class Form4 : Form
+    public partial class Stats : Form
     {
-        public Form4()
+        public Stats()
         {
             InitializeComponent();
         }
@@ -27,7 +27,7 @@ namespace Treashure
 
         }
 
-        private void Form4_Load(object sender, EventArgs e)
+        private void Stats_Load(object sender, EventArgs e)
         {
 
         }
@@ -51,11 +51,6 @@ namespace Treashure
             Form5 form5 = new Form5();
             form5.Show();
             Visible = false;
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

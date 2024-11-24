@@ -1,6 +1,6 @@
 ﻿namespace Treashure
 {
-    partial class Form4
+    partial class Collection_Points
     {
         /// <summary>
         /// Required designer variable.
@@ -20,11 +20,6 @@
             base.Dispose(disposing);
         }
 
-        private PictureBox GetPictureBox1()
-        {
-            return pictureBox1;
-        }
-
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -33,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Collection_Points));
             splitter1 = new Splitter();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
@@ -50,94 +46,98 @@
             // 
             // splitter1
             // 
-            splitter1.BackColor = Color.MidnightBlue;
+            splitter1.BackColor = Color.OliveDrab;
             splitter1.Location = new Point(0, 0);
             splitter1.Margin = new Padding(2);
             splitter1.Name = "splitter1";
-            splitter1.Size = new Size(56, 270);
+            splitter1.Size = new Size(89, 360);
             splitter1.TabIndex = 0;
             splitter1.TabStop = false;
             // 
             // pictureBox1
             // 
-            pictureBox1.BackColor = Color.MidnightBlue;
+            pictureBox1.BackColor = Color.OliveDrab;
             pictureBox1.BackgroundImage = Properties.Resources.Vector;
-            pictureBox1.Location = new Point(-1, 0);
+            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox1.Location = new Point(8, 11);
             pictureBox1.Margin = new Padding(2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(52, 41);
+            pictureBox1.Size = new Size(72, 63);
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
             // pictureBox2
             // 
-            pictureBox2.BackColor = Color.MidnightBlue;
+            pictureBox2.BackColor = Color.OliveDrab;
             pictureBox2.BackgroundImage = Properties.Resources.material_symbols_home;
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox2.Cursor = Cursors.Cross;
-            pictureBox2.Location = new Point(8, 54);
+            pictureBox2.Location = new Point(19, 83);
             pictureBox2.Margin = new Padding(2);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(43, 37);
+            pictureBox2.Size = new Size(46, 40);
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
             pictureBox2.Click += pictureBox2_Click;
             // 
             // pictureBox3
             // 
-            pictureBox3.BackColor = Color.MidnightBlue;
-            pictureBox3.BackgroundImage = Properties.Resources.mdi_report_bar;
-            pictureBox3.Location = new Point(13, 94);
+            pictureBox3.BackColor = Color.Green;
+            pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
+            pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox3.Location = new Point(19, 127);
             pictureBox3.Margin = new Padding(2);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(35, 29);
+            pictureBox3.Size = new Size(46, 44);
             pictureBox3.TabIndex = 3;
             pictureBox3.TabStop = false;
             pictureBox3.Click += pictureBox3_Click;
             // 
             // pictureBox4
             // 
-            pictureBox4.BackColor = Color.Aqua;
-            pictureBox4.BackgroundImage = Properties.Resources.ion_binoculars;
-            pictureBox4.Location = new Point(8, 127);
+            pictureBox4.BackColor = Color.OliveDrab;
+            pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
+            pictureBox4.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox4.Location = new Point(19, 175);
             pictureBox4.Margin = new Padding(2);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(42, 33);
+            pictureBox4.Size = new Size(46, 49);
             pictureBox4.TabIndex = 4;
             pictureBox4.TabStop = false;
-            pictureBox4.Click += pictureBox4_Click;
             // 
             // pictureBox5
             // 
-            pictureBox5.BackColor = Color.MidnightBlue;
-            pictureBox5.Image = Properties.Resources.Vector1;
-            pictureBox5.Location = new Point(7, 164);
+            pictureBox5.BackColor = Color.OliveDrab;
+            pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
+            pictureBox5.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox5.Location = new Point(19, 228);
             pictureBox5.Margin = new Padding(2);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(43, 31);
+            pictureBox5.Size = new Size(46, 49);
             pictureBox5.TabIndex = 5;
             pictureBox5.TabStop = false;
             pictureBox5.Click += pictureBox5_Click;
             // 
             // pictureBox6
             // 
-            pictureBox6.BackColor = Color.MidnightBlue;
-            pictureBox6.BackgroundImage = Properties.Resources.iconamoon_exit_light;
-            pictureBox6.Location = new Point(2, 224);
+            pictureBox6.BackColor = Color.OliveDrab;
+            pictureBox6.BackgroundImage = (Image)resources.GetObject("pictureBox6.BackgroundImage");
+            pictureBox6.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox6.Location = new Point(19, 281);
             pictureBox6.Margin = new Padding(2);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(48, 38);
+            pictureBox6.Size = new Size(46, 43);
             pictureBox6.TabIndex = 6;
             pictureBox6.TabStop = false;
             pictureBox6.Click += pictureBox6_Click;
             // 
-            // Form4
+            // Collection_Points
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.TPS_Manager;
-            ClientSize = new Size(560, 270);
+            BackgroundImage = Properties.Resources.Login__1_;
+            ClientSize = new Size(648, 360);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
             Controls.Add(pictureBox4);
@@ -146,9 +146,9 @@
             Controls.Add(pictureBox1);
             Controls.Add(splitter1);
             Margin = new Padding(2);
-            Name = "Form4";
-            Text = "Form4";
-            Load += Form4_Load;
+            Name = "Collection_Points";
+            Text = "Collection_Points";
+            Load += Collection_Points_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();

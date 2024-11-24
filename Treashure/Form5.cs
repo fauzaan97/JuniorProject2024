@@ -49,5 +49,25 @@ namespace Treashure
             Login form2 = new Login();
             form2.Show();
         }
+
+        private void lblEmail_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblNama_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
