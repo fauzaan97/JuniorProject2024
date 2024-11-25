@@ -21,26 +21,7 @@ namespace Treashure
         }
         private void LoadProfile()
         {
-            // String koneksi ke database PostgreSQL (ganti dengan koneksi yang sesuai)
-            using (var conn = new NpgsqlConnection(DatabaseConfig.ConnectionString))
-
-            {
-                conn.Open();
-                string query = "SELECT name, email FROM Account WHERE id = @userID";
-                using (var cmd = new NpgsqlCommand(query, conn))
-                {
-                    cmd.Parameters.AddWithValue("userID", 1);
-
-                    using (var reader = cmd.ExecuteReader())
-                    {
-                        if (reader.Read())
-                        {
-                            lblNama.Text = $"Nama: {reader["name"]}";
-                            lblEmail.Text = $"Email: {reader["email"]}";
-                        }
-                    }
-                }
-            }
+            LoadAdminData();
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
@@ -68,6 +49,83 @@ namespace Treashure
         private void lblNama_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+            LoadAdminData();
+        }
+        private void LoadAdminData()
+        {
+            string connectionString = "Host=treashuredb.c304g4oao6vf.ap-southeast-2.rds.amazonaws.com;Port=5432;Database=TreashureDB;Username=postgres;Password=postgres;SSL Mode=Require;Trust Server Certificate=true;";
+            // Get the current session's email
+            string sessionEmail = SessionManager.Email;
+
+            if (string.IsNullOrEmpty(sessionEmail))
+            {
+                MessageBox.Show("User is not logged in.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            using (var conn = new NpgsqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+
+                    // SQL query to fetch user details and admin ability
+                    string query = @"
+                    SELECT 
+                        u.email, 
+                        u.username,  
+                        u.name, 
+                        u.role, 
+                        a.ability
+                    FROM 
+                        users u
+                    LEFT JOIN 
+                        admins a 
+                    ON 
+                        u.ID = a.user_id
+                    WHERE 
+                        u.email = @Email;
+                ";
+
+                    using (var cmd = new NpgsqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("Email", sessionEmail);
+
+                        using (var reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                // Populate the form fields with the data
+                                label10.Text = reader["email"].ToString();
+                                label2.Text = reader["username"].ToString();;
+                                label6.Text = reader["name"].ToString();
+                                label7.Text = reader["role"].ToString();
+
+                                if (!reader.IsDBNull(reader.GetOrdinal("ability")))
+                                {
+                                    label8.Text = reader["ability"].ToString();
+                                }
+                                else
+                                {
+                                    label8.Text = "No Ability";
+                                }
+                            }
+                            else
+                            {
+                                MessageBox.Show("No data found for the current user.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
     }
 }

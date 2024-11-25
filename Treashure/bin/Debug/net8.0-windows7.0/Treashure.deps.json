@@ -10,7 +10,6 @@
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.2903.40",
           "Npgsql": "9.0.1",
-          "AxInterop.MapWinGIS": "4.9.0.0",
           "Microsoft.Web.WebView2.Core": "1.0.2903.40",
           "Microsoft.Web.WebView2.WinForms": "1.0.2903.40",
           "Microsoft.Web.WebView2.Wpf": "1.0.2903.40"
@@ -68,14 +67,6 @@
           }
         }
       },
-      "AxInterop.MapWinGIS/4.9.0.0": {
-        "runtime": {
-          "AxInterop.MapWinGIS.dll": {
-            "assemblyVersion": "4.9.0.0",
-            "fileVersion": "4.9.0.0"
-          }
-        }
-      },
       "Microsoft.Web.WebView2.Core/1.0.2903.40": {
         "runtime": {
           "Microsoft.Web.WebView2.Core.dll": {
@@ -97,14 +88,6 @@
           "Microsoft.Web.WebView2.Wpf.dll": {
             "assemblyVersion": "1.0.2903.40",
             "fileVersion": "1.0.2903.40"
-          }
-        }
-      },
-      "Interop.MapWinGIS/4.9.0.0": {
-        "runtime": {
-          "Interop.MapWinGIS.dll": {
-            "assemblyVersion": "4.9.0.0",
-            "fileVersion": "4.9.0.0"
           }
         }
       }
@@ -144,11 +127,6 @@
       "path": "npgsql/9.0.1",
       "hashPath": "npgsql.9.0.1.nupkg.sha512"
     },
-    "AxInterop.MapWinGIS/4.9.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Microsoft.Web.WebView2.Core/1.0.2903.40": {
       "type": "reference",
       "serviceable": false,
@@ -160,11 +138,6 @@
       "sha512": ""
     },
     "Microsoft.Web.WebView2.Wpf/1.0.2903.40": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Interop.MapWinGIS/4.9.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

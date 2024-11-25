@@ -108,6 +108,7 @@
             pictureBox4.Size = new Size(66, 82);
             pictureBox4.TabIndex = 4;
             pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // pictureBox5
             // 
