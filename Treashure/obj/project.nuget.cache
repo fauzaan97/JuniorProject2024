@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "m9Defla64u6lFibm9cl8qZHLuN9WJOq5++sXLsp2PQD//ajk3Govsr1Psdb0xbx7QMUyfDZ2w7hVHJXVcONIxg==",
+  "dgSpecHash": "Fo+bf93rPw0ykTLs8GVS+9/TCWVZAGDwgVu0OBPbq8yIIyhVwo1Z1dREndIoYvEqZeVg80ERab/SoyRSc44OZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Treashure\\Treashure\\Treashure\\Treashure.csproj",
+  "projectFilePath": "D:\\KULIAH\\2024-2025\\Ganjil\\Treashure\\Treashure\\Treashure\\Treashure\\Treashure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
-    "C:\\Users\\LENOVO\\.nuget\\packages\\npgsql\\9.0.1\\npgsql.9.0.1.nupkg.sha512"
+    "C:\\Users\\Aqiil\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Aqiil\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Aqiil\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
+    "C:\\Users\\Aqiil\\.nuget\\packages\\npgsql\\9.0.1\\npgsql.9.0.1.nupkg.sha512"
   ],
   "logs": []
 }

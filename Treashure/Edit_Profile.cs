@@ -65,7 +65,17 @@ namespace Treashure
         {
             Profile profile = new Profile();
             profile.Show();
-            Visible=false;
+            Visible = false;
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

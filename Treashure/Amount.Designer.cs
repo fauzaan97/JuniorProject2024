@@ -51,120 +51,123 @@
             // 
             // splitter1
             // 
-            splitter1.BackColor = Color.OliveDrab;
+            splitter1.BackColor = Color.FromArgb(147, 188, 63);
             splitter1.Location = new Point(0, 0);
-            splitter1.Margin = new Padding(2);
+            splitter1.Margin = new Padding(4, 4, 4, 4);
             splitter1.Name = "splitter1";
-            splitter1.Size = new Size(89, 360);
+            splitter1.Size = new Size(165, 814);
             splitter1.TabIndex = 0;
             splitter1.TabStop = false;
             // 
             // pictureBox1
             // 
-            pictureBox1.BackColor = Color.OliveDrab;
+            pictureBox1.BackColor = Color.FromArgb(147, 188, 63);
             pictureBox1.BackgroundImage = Properties.Resources.Vector;
-            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(8, 11);
-            pictureBox1.Margin = new Padding(2);
+            pictureBox1.BackgroundImageLayout = ImageLayout.Center;
+            pictureBox1.Location = new Point(15, 23);
+            pictureBox1.Margin = new Padding(4, 4, 4, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(72, 63);
+            pictureBox1.Size = new Size(134, 134);
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
             // pictureBox2
             // 
-            pictureBox2.BackColor = Color.OliveDrab;
+            pictureBox2.BackColor = Color.FromArgb(147, 188, 63);
             pictureBox2.BackgroundImage = Properties.Resources.material_symbols_home;
-            pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox2.BackgroundImageLayout = ImageLayout.Center;
             pictureBox2.BorderStyle = BorderStyle.FixedSingle;
             pictureBox2.Cursor = Cursors.Cross;
-            pictureBox2.Location = new Point(19, 83);
-            pictureBox2.Margin = new Padding(2);
+            pictureBox2.Location = new Point(35, 177);
+            pictureBox2.Margin = new Padding(4, 4, 4, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(46, 40);
+            pictureBox2.Size = new Size(84, 83);
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
             pictureBox2.Click += pictureBox2_Click;
             // 
             // pictureBox3
             // 
-            pictureBox3.BackColor = Color.OliveDrab;
+            pictureBox3.BackColor = Color.FromArgb(147, 188, 63);
             pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
-            pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox3.Location = new Point(19, 127);
-            pictureBox3.Margin = new Padding(2);
+            pictureBox3.BackgroundImageLayout = ImageLayout.Center;
+            pictureBox3.Location = new Point(35, 271);
+            pictureBox3.Margin = new Padding(4, 4, 4, 4);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(46, 44);
+            pictureBox3.Size = new Size(85, 94);
             pictureBox3.TabIndex = 3;
             pictureBox3.TabStop = false;
             pictureBox3.Click += pictureBox3_Click;
             // 
             // pictureBox4
             // 
-            pictureBox4.BackColor = Color.OliveDrab;
+            pictureBox4.BackColor = Color.FromArgb(147, 188, 63);
             pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
-            pictureBox4.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox4.Location = new Point(19, 175);
-            pictureBox4.Margin = new Padding(2);
+            pictureBox4.BackgroundImageLayout = ImageLayout.Center;
+            pictureBox4.Location = new Point(35, 373);
+            pictureBox4.Margin = new Padding(4, 4, 4, 4);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(46, 49);
+            pictureBox4.Size = new Size(85, 105);
             pictureBox4.TabIndex = 4;
             pictureBox4.TabStop = false;
             // 
             // pictureBox5
             // 
-            pictureBox5.BackColor = Color.Green;
+            pictureBox5.BackColor = Color.FromArgb(89, 114, 38);
             pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
-            pictureBox5.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox5.Location = new Point(19, 228);
-            pictureBox5.Margin = new Padding(2);
+            pictureBox5.BackgroundImageLayout = ImageLayout.Center;
+            pictureBox5.Location = new Point(35, 486);
+            pictureBox5.Margin = new Padding(4, 4, 4, 4);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(46, 49);
+            pictureBox5.Size = new Size(85, 105);
             pictureBox5.TabIndex = 5;
             pictureBox5.TabStop = false;
             pictureBox5.Click += pictureBox5_Click;
             // 
             // pictureBox6
             // 
-            pictureBox6.BackColor = Color.OliveDrab;
+            pictureBox6.BackColor = Color.FromArgb(147, 188, 63);
             pictureBox6.BackgroundImage = (Image)resources.GetObject("pictureBox6.BackgroundImage");
-            pictureBox6.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox6.Location = new Point(19, 281);
-            pictureBox6.Margin = new Padding(2);
+            pictureBox6.BackgroundImageLayout = ImageLayout.Center;
+            pictureBox6.Location = new Point(35, 599);
+            pictureBox6.Margin = new Padding(4, 4, 4, 4);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(46, 43);
+            pictureBox6.Size = new Size(85, 92);
             pictureBox6.TabIndex = 6;
             pictureBox6.TabStop = false;
             pictureBox6.Click += pictureBox6_Click;
             // 
             // panel1
             // 
-            panel1.BackColor = Color.DarkSeaGreen;
+            panel1.BackColor = Color.FromArgb(202, 220, 191);
             panel1.Controls.Add(textBox1);
             panel1.Controls.Add(button3);
             panel1.Controls.Add(label1);
-            panel1.Location = new Point(133, 43);
+            panel1.Location = new Point(241, 53);
+            panel1.Margin = new Padding(6, 6, 6, 6);
             panel1.Name = "panel1";
-            panel1.Size = new Size(467, 281);
+            panel1.Size = new Size(1009, 702);
             panel1.TabIndex = 9;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(102, 115);
+            textBox1.Location = new Point(269, 271);
+            textBox1.Margin = new Padding(6, 6, 6, 6);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(270, 23);
+            textBox1.Size = new Size(498, 39);
             textBox1.TabIndex = 17;
             // 
             // button3
             // 
-            button3.BackColor = Color.OliveDrab;
+            button3.BackColor = Color.FromArgb(89, 114, 38);
             button3.FlatStyle = FlatStyle.Popup;
-            button3.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.Location = new Point(195, 212);
+            button3.Font = new Font("Poppins", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.ForeColor = SystemColors.Control;
+            button3.Location = new Point(442, 478);
             button3.Margin = new Padding(0);
             button3.Name = "button3";
-            button3.Size = new Size(77, 33);
+            button3.Size = new Size(143, 70);
             button3.TabIndex = 16;
             button3.Text = "Done";
             button3.UseVisualStyleBackColor = false;
@@ -172,20 +175,21 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Cambria", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(112, 61);
+            label1.Font = new Font("Poppins", 19.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(305, 172);
+            label1.Margin = new Padding(6, 0, 6, 0);
             label1.Name = "label1";
-            label1.Size = new Size(250, 32);
+            label1.Size = new Size(417, 93);
             label1.TabIndex = 8;
-            label1.Text = "Enter Your Amount";
+            label1.Text = "Enter Amount";
             label1.Click += label1_Click;
             // 
             // Amount
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Login__1_;
-            ClientSize = new Size(648, 360);
+            ClientSize = new Size(1323, 814);
             Controls.Add(panel1);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
@@ -194,7 +198,7 @@
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(splitter1);
-            Margin = new Padding(2);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "Amount";
             Text = "Amount";
             Load += Amount_Load;

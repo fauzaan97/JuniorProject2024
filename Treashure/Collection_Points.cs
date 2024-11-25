@@ -74,17 +74,22 @@ namespace Treashure
             {
                 StringBuilder address = new StringBuilder();
                 address.Append("https://maps.google.com/maps?q=");
-                if (city != string.Empty) 
-                { 
-                    address.Append(city+","+"+");
+                if (city != string.Empty)
+                {
+                    address.Append(city + "," + "+");
                 }
                 webView21.Source = new Uri(address.ToString()); ;
             }
-            catch(Exception  ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
             }
 
+
+        }
+
+        private void webView21_Click_1(object sender, EventArgs e)
+        {
 
         }
     }
