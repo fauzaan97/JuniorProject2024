@@ -56,13 +56,27 @@ namespace Treashure
             string username = txtUsername.Text;
             string password = txtPassword.Text; // Password yang dimasukkan oleh pengguna
 
-            if (IsValidLogin(username, password))
+            string role = IsValidLogin(username, password);
+
+            if (role != null)
             {
-                MessageBox.Show("Login berhasil!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                
-                this.Hide(); // Menyembunyikan form login
-                 Form2 mainForm = new Form2();
-                 mainForm.Show();
+                SessionManager.Email = username;
+                SessionManager.Role = role;
+
+                if (role == "admin")
+                {
+                    MessageBox.Show("Login berhasil!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Hide(); // Menyembunyikan form login
+                    Form2 mainForm = new Form2();
+                    mainForm.Show();
+                }
+                else if (role == "user")
+                {
+                    MessageBox.Show("Selamat datang!", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Hide(); // Menyembunyikan form login
+                    Home homePage = new Home(); // Assuming HomePage is the main page for regular users
+                    homePage.Show();
+                }
             }
             else
             {
@@ -70,13 +84,13 @@ namespace Treashure
             }
         }
 
-        private bool IsValidLogin(string email, string password)
+        private string IsValidLogin(string email, string password)
         {
-            bool isValid = false;
+            string role = null;
 
-            // Menggunakan connection string dari DatabaseConfig
-            string connectionString = DatabaseConfig.ConnectionString;
-            string query = "SELECT password FROM users WHERE email = @Email";
+            // Connection string from DatabaseConfig
+            string connectionString = "Host=treashuredb.c304g4oao6vf.ap-southeast-2.rds.amazonaws.com;Port=5432;Database=TreashureDB;Username=postgres;Password=postgres;SSL Mode=Require;Trust Server Certificate=true;";
+            string query = "SELECT password, role FROM users WHERE email = @Email";
 
             using (var conn = new NpgsqlConnection(connectionString))
             {
@@ -91,13 +105,14 @@ namespace Treashure
                         {
                             if (reader.Read())
                             {
-                                // Ambil password yang disimpan dari database (plaintext)
+                                // Get the stored password and role from the database
                                 string storedPassword = reader["password"].ToString();
+                                role = reader["role"].ToString();
 
-                                // Cek apakah password yang dimasukkan cocok dengan password yang disimpan
+                                // Check if the entered password matches the stored password
                                 if (password == storedPassword)
                                 {
-                                    isValid = true;
+                                    return role; // Return the role if credentials are valid
                                 }
                             }
                         }
@@ -109,11 +124,12 @@ namespace Treashure
                 }
             }
 
-            return isValid;
+            return null; // Return null if login is invalid or an error occurs
         }
-    
-                       
-    
+
+
+
+
 
         private void btnSignUp_Click(object sender, EventArgs e)
         {
@@ -128,6 +144,11 @@ namespace Treashure
         }
 
         private void rightPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
         {
 
         }

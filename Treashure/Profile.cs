@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Npgsql;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,7 +25,49 @@ namespace Treashure
 
         private void Profile_Load(object sender, EventArgs e)
         {
+            string email = SessionManager.Email; // Get the session email
 
+            // Retrieve user information from the database based on the email
+            string connectionString = "Host=treashuredb.c304g4oao6vf.ap-southeast-2.rds.amazonaws.com;Port=5432;Database=TreashureDB;Username=postgres;Password=postgres;SSL Mode=Require;Trust Server Certificate=true;";
+
+            string query = "SELECT name, username, email FROM users WHERE email = @Email";
+
+            using (var conn = new NpgsqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+
+                    using (var cmd = new NpgsqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("Email", email);
+
+                        using (var reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                // Get the user information from the database
+                                string name = reader["name"].ToString();
+                                string username = reader["username"].ToString();
+                                string userEmail = reader["email"].ToString();
+
+                                // Update the Labels with the user's information
+                                label4.Text = name;
+                                label5.Text = username;
+                                label6.Text = userEmail;
+                            }
+                            else
+                            {
+                                MessageBox.Show("User not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -56,6 +99,7 @@ namespace Treashure
 
         private void button2_Click(object sender, EventArgs e)
         {
+            SessionManager.Logout();
             Login login = new Login();
             login.Show();
             Visible = false;

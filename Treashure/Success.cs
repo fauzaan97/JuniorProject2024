@@ -12,9 +12,11 @@ namespace Treashure
 {
     public partial class Success : Form
     {
-        public Success()
+        private decimal transferAmount;
+        public Success(Decimal amount)
         {
             InitializeComponent();
+            transferAmount = amount;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -24,7 +26,7 @@ namespace Treashure
 
         private void Success_Load(object sender, EventArgs e)
         {
-
+            label2.Text = $"Rp {transferAmount.ToString("N2")}";
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)

@@ -179,7 +179,7 @@
             txtUsername.Font = new Font("Arial", 12F);
             txtUsername.Location = new Point(98, 194);
             txtUsername.Name = "txtUsername";
-            txtUsername.PlaceholderText = "Username";
+            txtUsername.PlaceholderText = "Email";
             txtUsername.Size = new Size(250, 26);
             txtUsername.TabIndex = 3;
             // 

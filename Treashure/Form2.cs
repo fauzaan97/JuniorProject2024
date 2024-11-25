@@ -24,7 +24,9 @@ namespace Treashure
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-
+            Login login = new Login();
+            login.Show();
+            Visible = false;
         }
 
         private void Form2_Load(object sender, EventArgs e)

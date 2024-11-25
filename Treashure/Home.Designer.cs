@@ -48,10 +48,10 @@
             label3 = new Label();
             panel1 = new Panel();
             panel5 = new Panel();
-            label14 = new Label();
-            label13 = new Label();
-            label12 = new Label();
             label11 = new Label();
+            label12 = new Label();
+            label13 = new Label();
+            label14 = new Label();
             label10 = new Label();
             label9 = new Label();
             label8 = new Label();
@@ -133,6 +133,7 @@
             pictureBox4.Size = new Size(46, 49);
             pictureBox4.TabIndex = 4;
             pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click_1;
             // 
             // pictureBox5
             // 
@@ -185,7 +186,7 @@
             panel2.ForeColor = Color.Black;
             panel2.Location = new Point(22, 77);
             panel2.Name = "panel2";
-            panel2.Size = new Size(215, 216);
+            panel2.Size = new Size(267, 216);
             panel2.TabIndex = 8;
             // 
             // label2
@@ -203,9 +204,9 @@
             // 
             panel3.BackColor = Color.White;
             panel3.ForeColor = Color.Black;
-            panel3.Location = new Point(252, 0);
+            panel3.Location = new Point(273, 0);
             panel3.Name = "panel3";
-            panel3.Size = new Size(219, 241);
+            panel3.Size = new Size(198, 213);
             panel3.TabIndex = 9;
             // 
             // panel4
@@ -215,9 +216,9 @@
             panel4.Controls.Add(label15);
             panel4.Controls.Add(label3);
             panel4.ForeColor = Color.Black;
-            panel4.Location = new Point(264, 77);
+            panel4.Location = new Point(295, 77);
             panel4.Name = "panel4";
-            panel4.Size = new Size(229, 216);
+            panel4.Size = new Size(198, 216);
             panel4.TabIndex = 9;
             // 
             // button1
@@ -238,7 +239,7 @@
             label15.AutoSize = true;
             label15.BackColor = Color.Transparent;
             label15.Font = new Font("Cambria", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label15.Location = new Point(24, 66);
+            label15.Location = new Point(0, 66);
             label15.Name = "label15";
             label15.Size = new Size(184, 32);
             label15.TabIndex = 22;
@@ -273,10 +274,10 @@
             // panel5
             // 
             panel5.BackColor = Color.DarkSeaGreen;
-            panel5.Controls.Add(label14);
-            panel5.Controls.Add(label13);
-            panel5.Controls.Add(label12);
             panel5.Controls.Add(label11);
+            panel5.Controls.Add(label12);
+            panel5.Controls.Add(label13);
+            panel5.Controls.Add(label14);
             panel5.Controls.Add(label10);
             panel5.Controls.Add(label9);
             panel5.Controls.Add(label8);
@@ -287,53 +288,53 @@
             panel5.ForeColor = Color.Black;
             panel5.Location = new Point(37, 108);
             panel5.Name = "panel5";
-            panel5.Size = new Size(187, 175);
+            panel5.Size = new Size(237, 175);
             panel5.TabIndex = 10;
             panel5.Paint += panel5_Paint;
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.BackColor = Color.Transparent;
-            label14.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label14.Location = new Point(157, 60);
-            label14.Name = "label14";
-            label14.Size = new Size(30, 15);
-            label14.TabIndex = 21;
-            label14.Text = "0 kg";
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.BackColor = Color.Transparent;
-            label13.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label13.Location = new Point(157, 85);
-            label13.Name = "label13";
-            label13.Size = new Size(30, 15);
-            label13.TabIndex = 20;
-            label13.Text = "0 kg";
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.BackColor = Color.Transparent;
-            label12.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label12.Location = new Point(157, 110);
-            label12.Name = "label12";
-            label12.Size = new Size(30, 15);
-            label12.TabIndex = 19;
-            label12.Text = "0 kg";
             // 
             // label11
             // 
             label11.AutoSize = true;
             label11.BackColor = Color.Transparent;
             label11.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label11.Location = new Point(157, 135);
+            label11.Location = new Point(157, 60);
             label11.Name = "label11";
             label11.Size = new Size(30, 15);
-            label11.TabIndex = 18;
+            label11.TabIndex = 21;
             label11.Text = "0 kg";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.BackColor = Color.Transparent;
+            label12.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label12.Location = new Point(157, 85);
+            label12.Name = "label12";
+            label12.Size = new Size(30, 15);
+            label12.TabIndex = 20;
+            label12.Text = "0 kg";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.BackColor = Color.Transparent;
+            label13.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label13.Location = new Point(157, 110);
+            label13.Name = "label13";
+            label13.Size = new Size(30, 15);
+            label13.TabIndex = 19;
+            label13.Text = "0 kg";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.BackColor = Color.Transparent;
+            label14.Font = new Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label14.Location = new Point(157, 135);
+            label14.Name = "label14";
+            label14.Size = new Size(30, 15);
+            label14.TabIndex = 18;
+            label14.Text = "0 kg";
             // 
             // label10
             // 
@@ -472,10 +473,10 @@
         private Label label4;
         private Label label9;
         private Label label8;
-        private Label label14;
-        private Label label13;
-        private Label label12;
         private Label label11;
+        private Label label12;
+        private Label label13;
+        private Label label14;
         private Label label10;
         private Button button1;
         private Label label15;
