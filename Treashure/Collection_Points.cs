@@ -58,12 +58,33 @@ namespace Treashure
         }
 
         private void Collection_Points_Load(object sender, EventArgs e)
-        { 
-        
+        {
+
         }
 
         private void webView21_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void MapButton_Click(object sender, EventArgs e)
+        {
+            string city = tbCity.Text;
+            try
+            {
+                StringBuilder address = new StringBuilder();
+                address.Append("https://maps.google.com/maps?q=");
+                if (city != string.Empty) 
+                { 
+                    address.Append(city+","+"+");
+                }
+                webView21.Source = new Uri(address.ToString()); ;
+            }
+            catch(Exception  ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
 
         }
     }
