@@ -1,5 +1,0 @@
-2024/11/25-10:51:48.899 770 Log #3: 6 ops saved to Table #4 OK
-2024/11/25-10:51:48.907 770 Archiving C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows7.0\Treashure.exe.WebView2\EBWebView\Default\Site Characteristics Database/000003.log: OK
-2024/11/25-10:51:48.907 770 Table #4: 6 entries OK
-2024/11/25-10:51:48.912 770 Archiving C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows7.0\Treashure.exe.WebView2\EBWebView\Default\Site Characteristics Database/MANIFEST-000001: OK
-2024/11/25-10:51:48.925 770 **** Repaired leveldb C:\Users\Titan\source\repos\asdf\Treashure\Treashure\bin\Debug\net8.0-windows7.0\Treashure.exe.WebView2\EBWebView\Default\Site Characteristics Database; recovered 1 files; 241 bytes. Some data may have been lost. ****
