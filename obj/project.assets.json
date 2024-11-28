@@ -308,11 +308,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Treashure.csproj",
+      "projectUniqueName": "C:\\Users\\Titan\\Documents\\GitHub\\Treashure\\Treashure.csproj",
       "projectName": "Treashure",
-      "projectPath": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\Treashure.csproj",
+      "projectPath": "C:\\Users\\Titan\\Documents\\GitHub\\Treashure\\Treashure.csproj",
       "packagesPath": "C:\\Users\\Titan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Titan\\source\\repos\\asdf\\Treashure\\Treashure\\obj\\",
+      "outputPath": "C:\\Users\\Titan\\Documents\\GitHub\\Treashure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Titan\\AppData\\Roaming\\NuGet\\NuGet.Config",
